@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">chamadas</string>
+    <string name="email">E-mail</string>
+    <string name="senha"> Senha</string>
+    <string name="confirme"> Confirme a senha </string>
+
+    <string name="N0">0</string>
+    <string name="N1">1</string>
+    <string name="N2">2</string>
+    <string name="N3">3</string>
+    <string name="N4">4</string>
+    <string name="N5">5</string>
+    <string name="N6">6</string>
+    <string name="N7">7</string>
+    <string name="N8">8</string>
+    <string name="N9">9</string>
+    <string name="asteristico">*</string>
+    <string name="velha">#</string>
+
+    <string name="apagar">C</string>
+    <string name="ligar">LIGAR</string>
+</resources>
