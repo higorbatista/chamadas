@@ -44,16 +44,26 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                     }else {
                         Toast.makeText(getApplicationContext(),
-                                "Email e senha invalidos! "Toast.LENGTH_SHORT).show();
+                                "Email e senha invalidos! ",Toast.LENGTH_SHORT).show();
                     }
 
                 }else {
                     Toast.makeText(getApplicationContext(),
-                            "nao existe cadastro"Toast.LENGTH_SHORT).show();
+                            "nao existe cadastro",Toast.LENGTH_SHORT).show();
                 }
 
                 Intent intent =  new Intent(MainActivity.this, Activityc.class);
                 startActivity(intent);
+
+
+            }
+        });
+        registro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActivityB.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
